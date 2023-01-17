@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lianne`s Online Services</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+	<TITLE>LIANNES ONLINE SERVICES</TITLE>
+
+</head>
+<body>
+    <header id="home">
+		<nav id="nav">
+			<div class="logo nav-common"><img src="logo.jpg" alt="brand-logo"></div>
+			<ul class="nav-common">
+				<li><a href="#home">home</a></li>
+				<li><a href="#services">services</a></li>
+				<li><a href="#location">location</a></li>
+				<li><a href="#contact">contact</a></li>
+			</ul>
+			<div class="cart nav-icon nav-common"><img src="shopping_cart.jpg"></div>
+			<div class="menu nav-icon nav-common"><img src="https://res.cloudinary.com/de8cuyd0n/image/upload/v1520412543/E-commerce%20landing%20page/icons/menu_1x.png" alt="hamburger-menu"></div>
+		</nav>
+		<div id="header-hero">
+			<div class="header-bg"> <img src="banner.jpg" /> </div>
+			<div class="header-content">
+				<div class="button">
+					<a href="#location"><p>shop now</p></a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="services">
+		<div class="container">
+			<div class="services-header">
+				<h2>popular services</h2>
+			</div>
+			<div class="services service-1">
+				<figure> <img src="NBI.jpg" alt="service-image">
+                    <figcaption>for only</figcaption>
+					<figcaption>₱220.00</figcaption>
+				</figure>
+			</div>
+			<div class="services service-2">
+				<figure> <img src="police.jpg" alt="service-image">
+					<figcaption>for only</figcaption>
+					<figcaption>₱240.00 ONLY</figcaption>
+				</figure>
+			</div>
+			<div class="services service-3">
+				<figure> <img src="prc.jpg" alt="product-image">
+					<figcaption>for only</figcaption>
+					<figcaption>₱150.00 ONLY</figcaption>
+				</figure>
+			</div>
+			<div class="services service-4">
+				<figure> <img src="others.jpg" alt="product-image">
+					<figcaption>OTHER</figcaption>
+					<figcaption>SERVICES</figcaption>
+				</figure>
+			</div>
+		</div>
+	</section>
+
+	<div id="location"">
+		<div class="location">
+		  <div class="contact-map">
+			<div>
+			<center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d345.8830495037133!2d125.00560170684061!3d11.24522050924667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x330871ff461ff703%3A0x5297f2c7f2dbe29b!2sLianne%60s%20Online%20Services!5e0!3m2!1sen!2sph!4v1672800930267!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+			<center>
+			<div class="col-sm-6">
+				<form role="form" name="ajax-form" id="ajax-form" action="https://formsubmit.io/send/coderthemes@gmail.com" method="post" class="form-main">
+		
+				  <div class="form-group">
+					<label for="name2">Name</label>
+					<input class="form-control" id="name2" name="name" onblur="if(this.value == '') this.value='Name'" onfocus="if(this.value == 'Name') this.value=''" type="text" value="Name">
+					<div class="error" id="err-name" style="display: none;">Please enter name</div>
+				  </div> 
+		
+				  <div class="form-group">
+					<label for="email2">Email</label>
+					<input class="form-control" id="email2" name="email" type="text" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';" value="E-mail">
+					<div class="error" id="err-emailvld" style="display: none;">E-mail is not a valid format</div> 
+				  </div> 
+		
+				  <div class="form-group">
+					<label for="message2">Message</label>
+					<textarea class="form-control" id="message2" name="message" rows="5" onblur="if(this.value == '') this.value='Message'" onfocus="if(this.value == 'Message') this.value=''">Message</textarea>
+		
+					<div class="error" id="err-message" style="display: none;">Please enter message</div>
+				  </div>
+		
+				  <div class="row">            
+					<div class="col-xs-12">
+					  <div id="ajaxsuccess" class="text-success">E-mail was successfully sent.</div>
+					  <div class="error" id="err-form" style="display: none;">There was a problem validating the form please check!</div>
+					  <div class="error" id="err-timedout">The connection to the server timed out!</div>
+					  <div class="error" id="err-state"></div>
+					  <button type="submit" class="btn btn-primary btn-shadow btn-rounded w-md" id="send">Submit</button>
+					</div> 
+				  </div> 
+		
+				</form> 
+			  </div> 
+			</div>
+		</div>
+		</center>
+	
+	<section id="contact">
+		<div class="container">
+			<h4>cantact us</h4>
+			<p>T.Claudio Street, Tacloban City, Leyte</p>
+			<p>+63 9655574126</p>
+			<p>liannes.onlineservice@gmail.com</p>
+		</div>
+	</section>
+	<footer>
+		<p class="copy-right"><img src="https://res.cloudinary.com/de8cuyd0n/image/upload/v1520412543/E-commerce%20landing%20page/icons/copy-right-img_1x.png" alt="copy right image" /> 2020 all right recived </p>
+		<p>privacy policy</p>
+		<p>license</p>
+	</footer>
+	<div class="back-to-top"><a href="#nav"> <img title="Back to Top." src="https://res.cloudinary.com/de8cuyd0n/image/upload/v1520412541/E-commerce%20landing%20page/icons/back_-_top_1x.png" alt="back to top"></a> </div>
+</body>
+</html>
